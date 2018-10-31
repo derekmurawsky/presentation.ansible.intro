@@ -1,29 +1,31 @@
-@snap[west]
-![Ansible Logo](img/Ansible_logo.svg)
-@snapend
+![Ansible Logo](img/ansible_logo.png)
 
-@snap[east]
-# Ansible
+
 A Robust Automation System
-@snapend
 
 ---
-# About Me
+## About the Presentation
+* Overview of Ansible
+* Review of [Ansible Best Practices](https://docs.ansible.com/ansible/latest/user_guide/playbooks_best_practices.html#content-organization)
+* Helpful Tips and Tricks
 
 ---
-# What is Ansible?
-Ansible is a...
+## About Me
+
+---
+## What is Ansible?
+
 * Configuration Management System
 * Deployment Tool
 * Network Automation System
 * Cloud Configuration System
 
-@snap[north-east template-note text-white]
+Note:
+
 Ansible is a fantastic tool that can do just about anything, but that doesn't mean it should be used for everything...
-@snapend
 
 ---
-# Folder Structure
+## Folder Structure
 
 ```text
 ├── host_vars/
@@ -62,8 +64,7 @@ Ansible is a fantastic tool that can do just about anything, but that doesn't me
 @[1-8](Host and Group variables can be both files and directories.)
 @[9-11](Inventories can be both static and dynamic.)
 @[14-29](Roles follow a standard directory structure.)
-From: [Ansible Best Practices](https://docs.ansible.com/ansible/latest/user_guide/playbooks_best_practices.html#content-organization)
 
-@snap[north-east template-note text-white]
+Note:
+
 There are more directories and conventions that Ansible supports, but those are beyond the scope of this presentaiton.
-@snapend
